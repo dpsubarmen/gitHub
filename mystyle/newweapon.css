@@ -1,0 +1,55 @@
+body {
+    background-image:url("./image/85801-krasnyj_cvet-soedinyonnye_shtaty_ameriki-flag-flag_soedinennyh_shtatov-tkan-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: fantasy;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+h2 {
+    font-family: fantasy;
+    color: red;
+    font-size: 70px;
+    text-align: center;
+}
+p {
+    font-family: fantasy;
+    color: rgb(211, 184, 184);
+    font-size: 30px;
+}
+.one {
+    text-align: center;
+}
+ul {
+    font-family: unset;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .iframe-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+  }
